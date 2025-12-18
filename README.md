@@ -1,8 +1,8 @@
 # langchain-amorce
 
-[![GitHub](https://img.shields.io/github/stars/trebortGolin/langchain-amorce?style=social)](https://github.com/trebortGolin/langchain-amorce)
+[![GitHub](https://img.shields.io/github/stars/AmorceAATP/langchain-amorce?style=social)](https://github.com/AmorceAATP/langchain-amorce)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Demo](https://img.shields.io/badge/demo-marketplace-success.svg)](https://github.com/trebortGolin/agent-marketplace-demo)
+[![Demo](https://img.shields.io/badge/demo-marketplace-success.svg)](https://github.com/AmorceAATP/agent-marketplace-demo)
 
 **Connect your LangChain agent to CrewAI, n8n, AutoGPT, and major LLMs — in 5 minutes.**
 
