@@ -42,8 +42,33 @@ print(f"Agent ID: {agent.agent_id}")  # Verified identity
 - ✅ Trust Directory verification
 - ✅ Automatic identity management
 - ✅ A2A-compatible messages
+- ✅ **NEW: Agent Discovery via ANS**
 
 ---
+
+## 🔍 Agent Discovery (NEW in v0.2.0)
+
+Enable your LangChain agents to discover other AI agents:
+
+```python
+from langchain_amorce import get_amorce_discovery_tools
+
+# Add discovery tools to your agent
+tools = get_amorce_discovery_tools()
+
+agent = AmorceAgent(
+    llm=ChatOpenAI(model="gpt-4"),
+    tools=tools,  # Includes search_agents and get_agent
+    secure=True
+)
+
+# Agent can now search for other agents!
+result = agent.run("Find an agent that can book flights to Paris")
+```
+
+**Available Tools:**
+- `search_agents` - Semantic search for agents by capability
+- `get_agent` - Get detailed info about a specific agent
 
 ## 🛡️ Features
 
